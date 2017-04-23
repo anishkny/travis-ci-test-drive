@@ -17,4 +17,5 @@ script:
   - source /home/travis/google-cloud-sdk/path.bash.inc
   - gcloud version
   - yarn global add @google-cloud/functions-emulator
+  - npm test
 
