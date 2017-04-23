@@ -4,7 +4,7 @@
   "description": "A repo to play around with Travis CI integration for GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "functions start && functions deploy helloWorld --trigger-http && functions call helloWorld --data='{\"message\":\"hello, world!\"}' && functions stop"
+    "test": "./test.sh"
   },
   "repository": {
     "type": "git",

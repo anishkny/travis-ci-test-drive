@@ -5,5 +5,5 @@
  * @param {Object} res Cloud Function response context.
  */
 exports.helloWorld = function helloWorld (req, res) {
-  res.status(200).send(JSON.stringify({query: req.query}, null, 2) + "\n");
+  res.status(200).send(JSON.stringify({now: new Date(), query: req.query}, null, 2) + "\n");
 };
