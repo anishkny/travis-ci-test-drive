@@ -5,9 +5,9 @@
 gcloud auth activate-service-account travis-ci-runner@realworld-firebase.iam.gserviceaccount.com --key-file /local/gcpcred.json --project realworld-firebase
 gcloud info
 
-cd /local
-functions start
-functions deploy helloWorld --trigger-http
-functions call helloWorld
-functions stop
+# cd /local
+# functions start
+# functions deploy helloWorld --trigger-http
+# functions call helloWorld
+# functions stop
 
