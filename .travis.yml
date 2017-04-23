@@ -1,3 +1,6 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+before_install:
+- openssl aes-256-cbc -K $encrypted_0d2dcbe7ab0f_key -iv $encrypted_0d2dcbe7ab0f_iv
+  -in gcpcred.json.enc -out .secret/gcpcred.json -d
