@@ -8,4 +8,4 @@ services:
 before_install:
 - openssl aes-256-cbc -K $encrypted_0d2dcbe7ab0f_key -iv $encrypted_0d2dcbe7ab0f_iv
   -in gcpcred.json.enc -out gcpcred.json -d
-- docker run -it google/cloud-sdk ./test.sh
+- docker run -it -v `pwd`:/local google/cloud-sdk /local/test.sh
