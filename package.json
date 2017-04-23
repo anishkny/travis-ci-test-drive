@@ -1,7 +1,7 @@
 {
   "name": "travis-ci-test-drive",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A repo to play around with Travis CI integration for GitHub.",
   "main": "index.js",
   "scripts": {
     "test": "echo hello, world! && exit 0"
