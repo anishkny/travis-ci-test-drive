@@ -4,7 +4,7 @@
   "description": "A repo to play around with Travis CI integration for GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello, world! && exit 0"
+    "test": "functions start && functions deploy helloWorld --trigger-http && functions call helloWorld --data='{\"message\":\"hello, world!\"}' && functions stop"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/anishkny/travis-ci-test-drive/issues"
   },
-  "homepage": "https://github.com/anishkny/travis-ci-test-drive#readme"
+  "homepage": "https://github.com/anishkny/travis-ci-test-drive#readme",
+  "dependencies": {
+    "@google-cloud/functions-emulator": "^1.0.0-alpha.16"
+  }
 }
