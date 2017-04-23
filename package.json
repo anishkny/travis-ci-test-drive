@@ -1,0 +1,20 @@
+{
+  "name": "travis-ci-test-drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello, world! && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anishkny/travis-ci-test-drive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anishkny/travis-ci-test-drive/issues"
+  },
+  "homepage": "https://github.com/anishkny/travis-ci-test-drive#readme"
+}
